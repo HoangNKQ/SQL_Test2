@@ -3,7 +3,7 @@ CREATE TABLE job_history (
     start_date DATE,
     end_date DATE,
     job_id VARCHAR(10) REFERENCES jobs (job_id), 
-    department_id
+    department_id NUMERIC
 )
 
 REFERENCE: 5.4.4. PRIMARY KEY, 5.4.5. Primary KEY
