@@ -1,0 +1,4 @@
+CREATE TABLE dup_countries AS
+SELECT * FROM countries
+
+REFERENCE: PARTVI - SQL commands - CREATE TABLE AS 
